@@ -99,11 +99,12 @@
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>Biomedical AI for Microscopy</h3>
-      <p>Undergraduate thesis project in development. Repository and research artifacts will be published when data and institutional permissions allow.</p>
+      <h3><a href="https://github.com/luisarias2680/genomic-deep-learning-labs">Genomic Deep Learning Study Labs</a></h3>
+      <p>Nine Spanish-language notebooks covering ML foundations, DNA representations, genomic CNNs, motif discovery, CTCF binding examples, and recurrent sequence models.</p>
       <p>
-        <img src="https://img.shields.io/badge/status-in_development-2A9D8F?style=flat-square" alt="In development" />
-        <img src="https://img.shields.io/badge/research-first-2A9D8F?style=flat-square" alt="Research first" />
+        <img src="https://img.shields.io/badge/PyTorch-5B4B8A?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+        <img src="https://img.shields.io/badge/Genomics-5B4B8A?style=flat-square" alt="Genomics" />
+        <img src="https://img.shields.io/badge/Jupyter-5B4B8A?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter" />
       </p>
     </td>
   </tr>
