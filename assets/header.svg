@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Luis Stephano Arias</title>
+  <desc id="desc">Bioinformatics, Biomedical AI and Scientific Computing</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071826" />
+      <stop offset="0.55" stop-color="#0B2F3D" />
+      <stop offset="1" stop-color="#0E5960" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity="0.28" />
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#A7F3D0" opacity="0.18" />
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#background)" />
+  <rect width="1200" height="360" rx="28" fill="url(#dots)" />
+  <ellipse cx="600" cy="180" rx="450" ry="210" fill="url(#glow)" />
+
+  <!-- Abstract cell and microscopy forms -->
+  <g fill="none" stroke="#5EEAD4" opacity="0.5">
+    <circle cx="118" cy="104" r="45" stroke-width="2" />
+    <circle cx="118" cy="104" r="17" stroke-width="2" />
+    <circle cx="209" cy="246" r="58" stroke-width="2" />
+    <circle cx="209" cy="246" r="22" stroke-width="2" />
+    <circle cx="70" cy="270" r="20" stroke-width="2" />
+    <path d="M151 135 C184 157 181 190 198 201" stroke-width="2" stroke-dasharray="5 8" />
+    <path d="M101 145 C82 181 70 214 70 250" stroke-width="2" stroke-dasharray="5 8" />
+  </g>
+  <g fill="#A7F3D0" opacity="0.75">
+    <circle cx="118" cy="104" r="5" />
+    <circle cx="209" cy="246" r="6" />
+    <circle cx="70" cy="270" r="4" />
+  </g>
+
+  <!-- Abstract neural network -->
+  <g stroke="#7DD3FC" stroke-width="1.5" opacity="0.42">
+    <path d="M973 82 L1061 122 L1004 181 L1100 231 L1028 292" />
+    <path d="M973 82 L1004 181 L928 240 L1028 292" />
+    <path d="M1061 122 L1100 231 M1004 181 L1028 292 M928 240 L1100 231" />
+  </g>
+  <g fill="#BAE6FD" filter="url(#softGlow)">
+    <circle cx="973" cy="82" r="5" />
+    <circle cx="1061" cy="122" r="6" />
+    <circle cx="1004" cy="181" r="7" />
+    <circle cx="928" cy="240" r="5" />
+    <circle cx="1100" cy="231" r="6" />
+    <circle cx="1028" cy="292" r="5" />
+  </g>
+
+  <!-- Central identity -->
+  <text x="600" y="137" text-anchor="middle" fill="#F8FAFC" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="44" font-weight="700" letter-spacing="5">LUIS STEPHANO ARIAS</text>
+  <text x="600" y="183" text-anchor="middle" fill="#A7F3D0" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="3">BIOINFORMATICS · BIOMEDICAL AI · SCIENTIFIC COMPUTING</text>
+
+  <g transform="translate(409 220)">
+    <rect width="382" height="42" rx="21" fill="#071826" fill-opacity="0.62" stroke="#5EEAD4" stroke-opacity="0.45" />
+    <text x="191" y="27" text-anchor="middle" fill="#E2E8F0" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="2">PYTHON · R · PYTORCH · HPC</text>
+  </g>
+
+  <text x="600" y="307" text-anchor="middle" fill="#94A3B8" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13" letter-spacing="3">LIMA, PERU</text>
+</svg>
