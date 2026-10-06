@@ -60,6 +60,18 @@
 
 <table>
   <tr>
+    <td colspan="2" valign="top">
+      <h3><a href="https://github.com/luisarias2680/peru-logistics-address-normalizer">Peruvian Logistics Address Normalizer</a></h3>
+      <p>Privacy-aware Python pipeline and local FastAPI interface for cleaning, parsing, matching, and geocoding logistics addresses. Includes explainable review states, provider safeguards, and 72 automated tests.</p>
+      <p>
+        <img src="https://img.shields.io/badge/FastAPI-0E7490?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+        <img src="https://img.shields.io/badge/SQLite-0E7490?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
+        <img src="https://img.shields.io/badge/Geoapify-0E7490?style=flat-square" alt="Geoapify" />
+        <img src="https://img.shields.io/badge/tests-72_passing-2A9D8F?style=flat-square" alt="72 passing tests" />
+      </p>
+    </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/luisarias2680/IMAGE-CLASSIFICATION-KNN-PCA">Image Classification · PCA + KNN</a></h3>
       <p>Classical machine-learning pipeline for image preprocessing, dimensionality reduction, classification, evaluation, and reusable model export.</p>
